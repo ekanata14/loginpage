@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/login-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-wrapper{
+    padding:200px 0;
+}
+
+.login-container{
+    width:500px;
+    height:500px;
+    margin:auto auto;
+    background-color:white;
+    border-radius: 30px;
+    padding:20px 45px;
+    box-shadow: 100px 0px rgb(0, 101, 184);
+    transition:0.3s all;
+    
+}
+
+@keyframes animasilogo {
+    0%{
+        top:-15px
+    }
+
+    50%{
+        top:15px
+    }
+
+    100%{
+        top:-15px;
+    }
+    
+}
+
+.login-container img{
+    display:block;
+    width:220px;
+    position:relative;
+    text-align:center;
+    left:91px;
+    top:-15px;
+    animation: animasilogo 2s ease-in-out infinite;
+}
+
+.login-container .login-right-side{
+    position:relative;
+    top:-400px;
+    left:300px;
+    transform: rotate(-90deg);
+    font-size: 40px;
+    font-family: Verdana;
+    cursor: pointer;
+    color:white;
+    transition: 0.3s all;
+}
+
+.login-container .login-right-side:hover{
+    text-shadow: 0px 0px 20px black;
+}
+
+
+.login-structure{
+    font-family: Verdana;
+}
+
+.login-structure p{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.login-structure input{
+    margin-bottom: 50px;
+    width:100%;
+    border:none;
+    border-bottom: 1px solid black;
+    padding:10px;
+}
