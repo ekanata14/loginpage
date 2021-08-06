@@ -23,10 +23,10 @@ html, body{
     width:500px;
     height:500px;
     margin:auto auto;
-    background-color:white;
+    background-color:#020031;
     border-radius: 30px;
     padding:20px 45px;
-    box-shadow: 100px 0px rgb(0, 101, 184);
+    box-shadow: 100px 0px #014380;
     transition:0.3s all;
     
 }
@@ -86,6 +86,9 @@ html, body{
     margin-bottom: 50px;
     width:100%;
     border:none;
-    border-bottom: 1px solid black;
+    color:white;
+    font-size: 20px;
+    background-color:#020031;
+    border-bottom: 1px solid white;
     padding:10px;
 }
