@@ -80,6 +80,7 @@ html, body{
 .login-structure p{
     font-size: 25px;
     padding-bottom: 10px;
+    color: white;
 }
 
 .login-structure input{
